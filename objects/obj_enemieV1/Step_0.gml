@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+var Joueur;
 
+instance_create_layer(x+32,y+32,"bulletsLayer",Obj_Shoot_Enemie);
 
-//Mov enemie
 if(instance_exists(obj_player)){
 
 }
