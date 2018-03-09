@@ -1,8 +1,8 @@
 {
-    "id": "5c0159af-f25c-461e-a21d-a08cc377e204",
+    "id": "645b4c80-865c-4348-a727-4e95c32aaff3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemie_spawn",
+    "name": "obj_player_turbo",
     "eventList": [
         
     ],

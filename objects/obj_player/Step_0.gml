@@ -7,6 +7,8 @@ draw_text(50,50,"score: ");
 /////////////////////////////////////////////////////
 //MOVING USER And Input Select
 
+		
+
 
 
 var keyRight =  keyboard_check(vk_right);
@@ -72,22 +74,43 @@ if(cooldownRegarge > 0){cooldownRegarge = cooldcooldownRegargeown - 1;}
 
 /////////////////////////////////////////////////////
 //Animate
-if(keyboard_key){
-	
-	if(KeyShoot){
-		sprite_index = Shoot;
-	}
+var moveX = x;
+var moveY = y;
 
 	if(keyRight) ||keyLeft || keyup || keyDown  {
-		sprite_index = Move;
-	}
-	if(KeyShoot) && (keyLeft || keyRight || keyLeft || keyDown || keyup){
-	sprite_index = MoveShoot;
+		with(obj_player_turbo)
+			{
+			  x = moveX - 95;
+			  y = moveY - 95;
+			 obj_player_turbo.visible = true;
+			
+			}
+	}else{
+	
+		with(obj_player_turbo)
+			{
+			 obj_player_turbo.visible = false;
+			}
+	
 	}
 	
-}else{
-sprite_index = Pause;
-}
+		if(KeyShoot) && ammoCanon > 0 {
+		with(obj_player_shoot)
+			{
+			  x = moveX - 95;
+			  y = moveY - 95;
+			 obj_player_shoot.visible = true;
+			
+			}
+	}else{
+	
+		with(obj_player_shoot)
+			{
+			 obj_player_shoot.visible = false;
+			}
+	
+	}
+
 
 
 

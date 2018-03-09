@@ -1,8 +1,8 @@
 {
-    "id": "5c0159af-f25c-461e-a21d-a08cc377e204",
+    "id": "59bb32bf-047c-45c6-829f-de5ecceb35cc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemie_spawn",
+    "name": "obj_player_shoot",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d51695e9-f22e-42bd-b242-215e1cd15043",
+    "spriteId": "e1930a10-4435-4323-bdec-658ac7ba6172",
     "visible": true
 }

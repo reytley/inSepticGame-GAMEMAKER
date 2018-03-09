@@ -6,4 +6,8 @@ ammoCanon = 50; //multiple 4 for canon
 cooldownRegarge = 0;
 ArmeSelect = 1;
 v= 20; //vitesse initial
-ac=0.25
+ac=0.25;
+
+
+
+sprite_add("player_5.png",16, true, true,x,y);
