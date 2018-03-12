@@ -5,7 +5,8 @@
     "name": "7717b076-28d7-4e8b-928c-dfce73766889",
     "children": [
         "9fc18daa-0a13-4837-82f2-facc22726df2",
-        "25fcc287-13d5-435a-9954-afea5bd44128"
+        "25fcc287-13d5-435a-9954-afea5bd44128",
+        "2148c1da-d294-463d-bc69-4f7134adf5cc"
     ],
     "filterType": "GMObject",
     "folderName": "enemie",

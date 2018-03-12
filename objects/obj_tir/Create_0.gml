@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-HP = 200;
-spd = 10;
-maxBal = 40; 
-v = 2;
-cooldown = 0;
+var Degats = 50;
+count = 50;
+total = 0;
+speed = 10;
+spd = 20;
+
