@@ -1,13 +1,10 @@
-draw_set_color(c_white);
-draw_text(50,50,"score: ");
+
 
 /// @description Insert description here
 // You can write your code in this editor
 //x = x + 4;
 /////////////////////////////////////////////////////
 //MOVING USER And Input Select
-
-
 
 var keyRight =  keyboard_check(vk_right);
 var keyLeft =  keyboard_check(vk_left);
@@ -17,6 +14,8 @@ var KeyReaload = keyboard_check(ord("R"));
 var KeyShoot = keyboard_check(ord("A"));
 var KeyArms1 = keyboard_check(vk_numpad1);
 var KeyArms2 = keyboard_check(vk_numpad2);
+
+
 if(keyRight  ){
 	x = x + v ;
 }
@@ -30,6 +29,15 @@ if(keyDown){
 	y = y + v;
 }
 
+
+
+//permet la rotation du sprite avec la souris ou autres
+//image_angle = point_direction(x,y,mouse_x,mouse_y);
+
+
+/////////////////////////////////////////////////////
+//Shooting User
+
 //Choice Armes
 if(KeyArms2){
 	ArmeSelect = 2;
@@ -39,12 +47,6 @@ if(KeyArms1){
 	ArmeSelect = 1;
 }
 
-//permet la rotation du sprite avec la souris ou autres
-//image_angle = point_direction(x,y,mouse_x,mouse_y);
-
-
-/////////////////////////////////////////////////////
-//Shooting User
 
 //Recharge of ammo
 if(KeyReaload) && (ammoCanon < 50) {
