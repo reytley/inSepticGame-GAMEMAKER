@@ -6,7 +6,15 @@ CaXR = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])
 CaXL = camera_get_view_x(view_camera[0]); 
 CaYR = camera_get_view_y(view_camera[0])+ camera_get_view_height(view_camera[0]);
 CaYL = camera_get_view_y(view_camera[0]);  
- 
+//show_message( sprite_get_height( object_get_sprite(obj_player)));
+
+
+
+
+
+
+
+
 //
 if(CaXL >= obj_player.x){
 
@@ -28,3 +36,4 @@ if(CaYR <= obj_player.y){
 
 obj_player.y =  CaYR;
 }
+

@@ -469,6 +469,14 @@
                 "resourcePath": "sprites\\tile1\\tile1.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fdd4f0cd-f051-446d-b762-805e038bb36d",
+            "Value": {
+                "id": "a5d22a28-c6ce-4106-8c0f-3edb488b7748",
+                "resourcePath": "sprites\\sprite13\\sprite13.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
