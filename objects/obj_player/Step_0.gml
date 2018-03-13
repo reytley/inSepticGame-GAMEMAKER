@@ -170,8 +170,6 @@ with(obj_player_shoot)
 }
 
 
-
-
 /*Notes 
 08/03/2018
 Création du projet

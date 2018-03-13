@@ -3,9 +3,17 @@
 
 
 if(cooldown = 0){
-bullets_enemie()
 
-cooldown = 50;
+
+var bullets1 = instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie);
+bullets1.orientationx = 50;
+bullets1.orientationy = trigonometrie(50,orientation);
+
+orientation --;	
+	
+
+
+cooldown = 1;
 }
 cooldown --;
 

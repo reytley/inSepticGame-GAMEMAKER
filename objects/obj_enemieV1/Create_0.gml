@@ -5,3 +5,4 @@ spd = 10;
 maxBal = 40; 
 v = 2;
 cooldown = 0;
+orientation = -10;

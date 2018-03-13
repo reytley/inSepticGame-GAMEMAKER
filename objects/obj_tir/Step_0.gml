@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-direction = point_direction(x ,y,x,y + test);
+direction = point_direction(x ,y,x,y);
 
 // Systeme de rotation
 if(total = count && speed = 10){
