@@ -39,3 +39,6 @@ if(CaYR <= obj_player.y){
 obj_player.y =  CaYR;
 }
 
+
+
+

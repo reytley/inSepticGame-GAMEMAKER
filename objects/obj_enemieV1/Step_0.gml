@@ -3,17 +3,18 @@
 
 
 if(cooldown = 0){
+	
+with(Obj_Shoot_Enemie){
+layer_sprite_change(Obj_Shoot_Enemie,shoots);
 
-
-var bullets1 = instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie);
-bullets1.orientationx = 50;
-bullets1.orientationy = trigonometrie(50,orientation);
-
-orientation --;	
+}	
+bullets_enemie(x,y,orientation,rotation,1,1,0,1,Obj_Shoot_Enemie);
+rotation = rotation*1.003;
+orientation ++;	
 	
 
 
-cooldown = 1;
+cooldown = 2;
 }
 cooldown --;
 

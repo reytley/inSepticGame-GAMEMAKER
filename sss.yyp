@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "2148c1da-d294-463d-bc69-4f7134adf5cc",
-            "Value": {
-                "id": "8d3d8dca-6198-423f-b37a-18d5bfd6807c",
-                "resourcePath": "objects\\obj_tir\\obj_tir.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "21a04f0a-43d0-4f6f-b478-c694ac4068c4",
             "Value": {
                 "id": "7c3c609d-700c-47c1-984c-4d7ea622e74c",
