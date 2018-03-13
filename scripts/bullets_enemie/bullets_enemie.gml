@@ -111,3 +111,11 @@ bullets.rotationy = 1;
 bullets.rotationx = -trigonometrie(1,angle*vitesse);
 }
 
+
+if(choix = 4 ){
+	for(i = 0;i< 360;i = i + 16){
+		var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+		bullets.rotationy = dcos(i +  angle);
+		bullets.rotationx =dsin(i + angle);
+	}
+}

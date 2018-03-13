@@ -5,8 +5,8 @@
 //x = x + 4;
 /////////////////////////////////////////////////////
 //MOVING USER And Input Select
-
-var keyRight =  keyboard_check(vk_right);
+var keyShift =  keyboard_check(vk_shift);
+var keyRight = keyboard_check(vk_right);
 var keyLeft =  keyboard_check(vk_left);
 var keyup =  keyboard_check(vk_up);
 var keyDown =  keyboard_check(vk_down);
@@ -14,7 +14,11 @@ var KeyReaload = keyboard_check(ord("R"));
 var KeyShoot = keyboard_check(ord("A"));
 var KeyArms1 = keyboard_check(vk_numpad1);
 var KeyArms2 = keyboard_check(vk_numpad2);
-
+if(keyShift  ){
+	v = 20;
+}else{
+v = 8;
+}
 
 if(keyRight  ){
 	x = x + v ;
@@ -101,8 +105,8 @@ if(keyup) {
 if(keyRight) {
 	with(obj_move_left)
 		{
-			x = moveX + 95;
-			y = moveY + 95;
+			x = moveX  + 95;
+			y = moveY - 95;
 			obj_move_left.visible = true;		
 		}
 }else{

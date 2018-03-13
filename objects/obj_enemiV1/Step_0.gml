@@ -1,15 +1,15 @@
 /// @description Bullshit\\Move
 // You can write your code in this editor
 
-
+//y = y - camera.vitesseCam;
 if(cooldown <= 0){
 	
 angle += 8;	
-cooldown = 6;
+cooldown = 60;
 test =sprite_get_width(object_get_sprite(Obj_Shoot_Enemie)) /2	
 test = test*3;
-
 bullets_enemie(x,y+test,angle,vitesse,1,Obj_Shoot_Enemie);
+bullets_enemie(x,y+test,angle,vitesse,4,Obj_Shoot_Enemie);
 
 //vitesse = vitesse;
 
