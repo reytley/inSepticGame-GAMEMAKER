@@ -1,18 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(keyboard_check(ord("P"))){
+show_message(orientation);
+}
+
 
 if(cooldown = 0){
 	
-with(Obj_Shoot_Enemie){
-layer_sprite_change(Obj_Shoot_Enemie,shoots);
-
-}	
-bullets_enemie(x,y,orientation,rotation,1,1,0,1,Obj_Shoot_Enemie);
-rotation = rotation*1.003;
-orientation ++;	
-	
-
+angle += 1;	
+bullets_enemie(x,y,angle,vitesse,1,Obj_Shoot_Enemie);
+bullets_enemie(x,y,angle,vitesse,2,Obj_Shoot_Enemie);
+bullets_enemie(x,y,angle,vitesse,3,Obj_Shoot_Enemie);
+//vitesse = vitesse*1.003;
 
 cooldown = 2;
 }

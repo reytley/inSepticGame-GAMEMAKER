@@ -1,41 +1,113 @@
 posX = argument0;
 posY = argument1;
-orientation= argument2;
+angle= argument2;
 vitesse = argument3;
-shootLeft = argument4;
-shootRight = argument5;
-shootUp = argument6;
-shootDown = argument7;
-Obj = argument8;
+choix = argument4;
+Obj = argument5;
 
 
 
-if(shootLeft = 1 ){
-var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
-bullets.orientationx = -100;
-bullets.orientationy = trigonometrie(100,orientation*vitesse);
-}
-
-if(shootRight = 1 ){
+if(choix = 1 ){
 
 var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
-bullets.orientationx = 100;
-bullets.orientationy = trigonometrie(100,orientation*vitesse);
-}
 
-if(shootUp = 1 ){
+bullets.rotationy = dcos(angle);
+bullets.rotationx =dsin(angle);
+
 var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
-bullets.orientationx =  trigonometrie(100,orientation*vitesse);
-bullets.orientationy = -100;
+
+bullets.rotationy = dcos(90 +  angle);
+bullets.rotationx =dsin(90 + angle);
+
+
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+
+bullets.rotationy = dcos(180 +  angle);
+bullets.rotationx =dsin(180 + angle);
+
+
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+
+bullets.rotationy = dcos(270 +  angle);
+bullets.rotationx =dsin(270 + angle);
+
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+
+bullets.rotationy = dcos(360 +  angle);
+bullets.rotationx =dsin(360 + angle);
+
 }
 
-if(shootDown = 1 ){
+/*
+if(shootLeft = 5 ){
+
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+result =  dcos(angle);
+bullets.rotationy =  result * 1;
+
+result = dsin(angle);
+bullets.rotationx =result *  (dcos(angle) * 1 );
+
+
+
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+bullets.orientationx =0;
+bullets.orientationy = 0;
+}*/
+
+if(choix = 2 ){
+	
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+bullets.rotationx = 1;
+bullets.rotationy = trigonometrie(1,angle*vitesse);
+}
+
+if(choix = 2 ){
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+bullets.rotationx = -1;
+bullets.rotationy = trigonometrie(1,angle*vitesse);
+}
+
+
+
+if(choix = 2 ){
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+bullets.rotationx =  -1;
+bullets.rotationy =  -trigonometrie(1,angle*vitesse);
+}
+
+if(choix = 2 ){
 var bullets = instance_create_layer(x,y,"bulletsLayer",Obj );
-bullets.orientationx =  trigonometrie(100,orientation*vitesse);
-bullets.orientationy = 100;
+bullets.rotationx = 1;  
+bullets.rotationy = -trigonometrie(1,angle*vitesse);
 }
 
 
 
+if(choix = 3 ){
+	
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+bullets.rotationy = 1;
+bullets.rotationx = trigonometrie(1,angle*vitesse);
+}
 
+if(choix = 3 ){
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+bullets.rotationy = -1;
+bullets.rotationx = trigonometrie(1,angle*vitesse);
+}
+
+
+
+if(choix = 3 ){
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj);
+bullets.rotationy =  -1;
+bullets.rotationx =  -trigonometrie(1,angle*vitesse);
+}
+
+if(choix = 3 ){
+var bullets = instance_create_layer(x,y,"bulletsLayer",Obj );
+bullets.rotationy = 1;  
+bullets.rotationx = -trigonometrie(1,angle*vitesse);
+}
 

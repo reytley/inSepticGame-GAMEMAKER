@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3ca09853-ea4c-4da8-8474-1b77b78b93b8",
+            "Value": {
+                "id": "a684f3b2-ebdb-4d37-bf3d-5590cc052c31",
+                "resourcePath": "scripts\\bullets_enemie2\\bullets_enemie2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3cf97aa0-3431-410d-b721-32b98d254984",
             "Value": {
                 "id": "6cf91373-fab8-481f-a852-89a62ff5b992",
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "ed8c34b5-ab4e-48db-b3f2-52197983a1fa",
+            "Value": {
+                "id": "3e8d7802-bc5b-4339-b1d5-63f239da4880",
+                "resourcePath": "scripts\\trigonometrie\\trigonometrie.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "eed2b81f-75c5-4a15-9f4b-edea093abafd",
             "Value": {
                 "id": "b3f65325-16e6-4793-ab6d-5d16ba4b017b",
@@ -481,7 +497,9 @@
     ],
     "script_order": [
         "db3c397f-5040-47bc-89c3-6d71634aebfa",
-        "6eb1526c-56ed-4041-8a7c-832da491287a"
+        "6eb1526c-56ed-4041-8a7c-832da491287a",
+        "3ca09853-ea4c-4da8-8474-1b77b78b93b8",
+        "ed8c34b5-ab4e-48db-b3f2-52197983a1fa"
     ],
     "tutorial": ""
 }
