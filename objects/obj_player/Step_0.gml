@@ -1,6 +1,6 @@
 
 
-/// @description Insert description here
+/// @description Moving Shoot Animate
 // You can write your code in this editor
 //x = x + 4;
 /////////////////////////////////////////////////////
@@ -31,10 +31,6 @@ if(keyDown){
 
 
 
-//permet la rotation du sprite avec la souris ou autres
-//image_angle = point_direction(x,y,mouse_x,mouse_y);
-
-
 /////////////////////////////////////////////////////
 //Shooting User
 
@@ -47,11 +43,9 @@ if(KeyArms1){
 	ArmeSelect = 1;
 }
 
-
 //Recharge of ammo
 if(KeyReaload) && (ammoCanon < 50) {
 ammoCanon = 50;
-
 }
 
 // shoot 
@@ -73,12 +67,15 @@ if(KeyShoot) && (cooldown < 1) && (ammoCanon > 0) && (cooldownRegarge < 1)
 	cooldown = 0;
 	ammoCanon -= 1 ;
 }
-if(cooldown > 0){cooldown = cooldown - 1;}   
-if(cooldownRegarge > 0){cooldownRegarge = cooldcooldownRegargeown - 1;}   
+if(cooldown > 0){
+	cooldown = cooldown - 1;
+	} 
+	
+if(cooldownRegarge > 0){
+	cooldownRegarge = cooldcooldownRegargeown - 1;
+	}   
 
-
-
-/////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 //Animate
 var moveX = x;
 var moveY = y;

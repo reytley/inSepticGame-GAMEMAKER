@@ -1,7 +1,8 @@
-/// @description Insert description here
+/// @description Direction\\ifOutScreen
 // You can write your code in this editor
 direction = point_direction(x ,y,x + rotationx ,y + rotationy );
 
-speed = 10;
-
-Count = 15;
+// if out screen Destroy
+if(Scr_ifOutScreen(x,y) != ""){
+	instance_destroy();
+}

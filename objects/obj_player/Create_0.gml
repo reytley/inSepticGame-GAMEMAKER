@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Variable
 // You can write your code in this editor
 life = 100;
 cooldown = 0;
@@ -10,4 +10,3 @@ ac=0.25;
 
 
 
-sprite_add("player_5.png",16, true, true,x,y);

@@ -21,8 +21,8 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Environement",
-            "id": "9873a553-cd35-45b3-a551-de2bf8ee972b",
+            "name": "bulletsLayer",
+            "id": "00adaa2a-c26e-4c6d-8711-599a1d4164b8",
             "depth": 0,
             "grid_x": 32,
             "grid_y": 32,
@@ -33,7 +33,33 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_58378E72","id": "1b73a729-6af4-49c8-9c82-7c475af7c956","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_58378E72","objId": "a557e918-956a-4973-a227-7ac4d68b9303","properties": null,"rotation": 5.198442,"scaleX": 2.013944,"scaleY": -2.090894,"mvc": "1.0","x": 1344,"y": 1760}
+
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Environement",
+            "id": "9873a553-cd35-45b3-a551-de2bf8ee972b",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_58378E72","id": "1b73a729-6af4-49c8-9c82-7c475af7c956","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_58378E72","objId": "a557e918-956a-4973-a227-7ac4d68b9303","properties": null,"rotation": 5.198442,"scaleX": 2.013944,"scaleY": -2.090894,"mvc": "1.0","x": 640,"y": -448}
             ],
             "layers": [
 
@@ -49,11 +75,11 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Player",
             "id": "814b98d4-eca5-408f-ad2c-30e4505ad212",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -75,38 +101,12 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": false
+            "visible": true
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "effectShoot",
+            "name": "Enemie",
             "id": "80e5ca3c-6ffe-4e39-a13d-c8d155a2e51f",
-            "depth": 200,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": true,
-            "hierarchyVisible": false,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "instances": [
-{"name": "inst_7C0C5EA","id": "aab81fbf-dcf4-4be8-8d6c-555371bfa47c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7C0C5EA","objId": "9fc18daa-0a13-4837-82f2-facc22726df2","properties": null,"rotation": -179.7471,"scaleX": 2.99518,"scaleY": 2.995615,"mvc": "1.0","x": 640,"y": 1568}
-            ],
-            "layers": [
-
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": true,
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "userdefined_depth": false,
-            "visible": false
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "bulletsLayer",
-            "id": "00adaa2a-c26e-4c6d-8711-599a1d4164b8",
             "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
@@ -117,7 +117,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_7C0C5EA","id": "aab81fbf-dcf4-4be8-8d6c-555371bfa47c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7C0C5EA","objId": "9fc18daa-0a13-4837-82f2-facc22726df2","properties": null,"rotation": -179.7471,"scaleX": 2.99518,"scaleY": 2.995615,"mvc": "1.0","x": 640,"y": 1568}
             ],
             "layers": [
 
@@ -137,7 +137,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -168,7 +168,7 @@
             },
             "tilesetId": "d74416d8-6e65-4770-8442-6dd9857ed144",
             "userdefined_depth": false,
-            "visible": false,
+            "visible": true,
             "x": 0,
             "y": 0
         }

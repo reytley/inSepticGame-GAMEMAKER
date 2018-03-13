@@ -1,8 +1,8 @@
 {
-    "id": "3ca09853-ea4c-4da8-8474-1b77b78b93b8",
+    "id": "80875b79-daf2-4038-919d-515092cad57f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "bullets_enemie2",
+    "name": "Scr_ifOutScreen",
     "IsCompatibility": false,
     "IsDnD": false
 }
