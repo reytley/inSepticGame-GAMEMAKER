@@ -11,6 +11,7 @@ tactile.  Modifier les animations liez au inputs</p>
 
 ```
 ```HTML
-<p title="Objectif 11"> Switch vers souris Bon. Si la souris change de position la fonction 'mp_linear_step
+</h1>Logs<h1>
+<p title="Objectif 11"> Switch vers souris pour mouvement. Si la souris change de position la fonction 'mp_linear_step
 ' pour déplacer le player vers l'objectif.</p> 
 ```

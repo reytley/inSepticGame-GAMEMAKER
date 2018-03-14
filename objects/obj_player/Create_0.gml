@@ -16,5 +16,3 @@ mx = mouse_x // current Mouse x
 my = mouse_y  // current Mouse y 
 smx = mouse_x; //save Mouse x
 smy = mouse_y; //save Mouse x
- mouse_x = x;
- mouse_y = y;

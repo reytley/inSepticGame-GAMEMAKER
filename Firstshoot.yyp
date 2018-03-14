@@ -138,7 +138,7 @@
             "Key": "25fcc287-13d5-435a-9954-afea5bd44128",
             "Value": {
                 "id": "5733c616-bc51-4c60-8709-6edfd7ff7f2d",
-                "resourcePath": "objects\\Obj_Shoot_Enemie\\Obj_Shoot_Enemie.yy",
+                "resourcePath": "objects\\Entite_Shoot\\Entite_Shoot.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -347,6 +347,14 @@
             "Value": {
                 "id": "a79a03d3-5053-4c2b-a53f-948c7bf2d47b",
                 "resourcePath": "objects\\obj_enemiV1\\obj_enemiV1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a065a75e-db3a-4e64-89c8-9d8a1d4f72bc",
+            "Value": {
+                "id": "d8349c24-578a-4e1a-9d57-9bff7ae6e134",
+                "resourcePath": "objects\\Obj_Shoot_Enemie\\Obj_Shoot_Enemie.yy",
                 "resourceType": "GMObject"
             }
         },
