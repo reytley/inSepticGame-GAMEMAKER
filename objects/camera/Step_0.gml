@@ -5,6 +5,12 @@ if(object_exists(obj_entiteEnemie) = false){
 	show_message("nope")
 Scr_procedural_spawn_enemie(1);
 }
+if(keyboard_check(vk_f3)){
+window_set_fullscreen(false);
+}
+if(keyboard_check(vk_f4)){
+window_set_fullscreen(true);
+}
 
 
 var cx = camera_get_view_x(view_camera[0])
