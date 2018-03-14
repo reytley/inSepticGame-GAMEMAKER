@@ -9,4 +9,4 @@ v = 2;
 cooldown = 0;
 vitesse = 1;
 angle = 0;
-av =1;
+av =12;

@@ -1,18 +1,31 @@
-/// @description Insert description here
+/// @description Bullshit\\Move
 // You can write your code in this editor
+/*
+if(av > 1 ){
+av = av / 1.04;
+y += av;
 
+}*/
+var cx = camera_get_view_x(view_camera[0])
+var cy = camera_get_view_y(view_camera[0])
+var cw = camera_get_view_width(view_camera[0]);
+var ch = camera_get_view_height(view_camera[0]);
 
-
-
-if(cooldown = 0){
+x = cw/2
+y = cy  + ch/2
+//y = y - camera.vitesseCam;
+if(cooldown <= 0){
 	
 angle += 1;	
+cooldown = 1;
+test =sprite_get_width(object_get_sprite(Obj_Shoot_Enemie1)) /2	
+test = test*3;
+bullets_enemie(x,y,angle,vitesse,1,Obj_Shoot_Enemie1);
 
-bullets_enemie(x,y,angle,vitesse,2,Obj_Shoot_Enemie);
-bullets_enemie(x,y,angle,vitesse,3,Obj_Shoot_Enemie);
-vitesse = vitesse*1.0003;
 
-cooldown = 6;
+//vitesse = vitesse;
+
+
 }
 cooldown --;
 

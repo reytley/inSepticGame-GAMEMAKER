@@ -1,5 +1,10 @@
 /// @description Bullshit\\Move
 // You can write your code in this editor
+if(av > 1 ){
+av = av / 1.04;
+y += av;
+
+}
 
 //y = y - camera.vitesseCam;
 if(cooldown <= 0){
