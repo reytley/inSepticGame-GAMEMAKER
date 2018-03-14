@@ -4,14 +4,15 @@
     "mvc": "1.1",
     "name": "292d32dc-7d53-419d-b81b-b5bb83f8a421",
     "children": [
-        "d9882871-bd16-44a1-a375-9180fc8ed4a9",
-        "8d01101a-f293-4631-9d90-e702a5de1285",
-        "3d77238c-59a0-4f59-a18f-2bd3ec4df228",
-        "2991b535-6f84-4407-82b8-f4c96e78cc84",
-        "0bda5314-8d29-4841-a684-b16f8d1ec02b"
+        "e3df9050-ad5e-4a2e-9f20-de656dd95fb7",
+        "d51695e9-f22e-42bd-b242-215e1cd15043",
+        "e1930a10-4435-4323-bdec-658ac7ba6172",
+        "3f8c486a-4fe0-4ec0-a99c-1154c1bdd496",
+        "b21eec1c-7b84-4736-9abe-a979b0000094",
+        "f55d8cc5-c515-4f09-8c1e-6fa1a834c7b3"
     ],
     "filterType": "GMSprite",
-    "folderName": "vaiseau1",
+    "folderName": "player",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
