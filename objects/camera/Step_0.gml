@@ -20,9 +20,7 @@ var ch = camera_get_view_height(view_camera[0]);
 //draw_text(cx+cw/2,cy+ch/2,string("test"));
 
 
-if(camera_get_view_y(view_camera[0]) > 0 ){
-//camera_set_view_pos(view_camera[0],camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0])-vitesseCam) ;
-}else{room_restart();}
+
 
 CaXR = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]);
 CaXL = camera_get_view_x(view_camera[0]); 
