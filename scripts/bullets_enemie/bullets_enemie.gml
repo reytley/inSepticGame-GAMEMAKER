@@ -14,7 +14,7 @@ var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets.rotationy = dcos(angle);
 bullets.rotationx =dsin(angle);
 
-var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+var bullets = instance_create_layer(posX+vitesse,posY,"bulletsLayer",Obj);
 
 bullets.rotationy = dcos(90 +  angle);
 bullets.rotationx =dsin(90 + angle);

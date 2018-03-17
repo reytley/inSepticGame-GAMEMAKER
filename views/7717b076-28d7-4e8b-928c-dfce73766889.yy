@@ -6,10 +6,9 @@
     "children": [
         "a1e61830-2d0a-4a33-b40c-f29d85dde4fe",
         "9fc18daa-0a13-4837-82f2-facc22726df2",
+        "23b42db5-8ebe-49ef-86b3-f31b4b848d1a",
         "6b8bd0e0-1ab9-42f6-adc7-6d4c63d93eb8",
-        "25fcc287-13d5-435a-9954-afea5bd44128",
-        "036093e8-2eb5-4ddb-8f83-adff26f7de83",
-        "a065a75e-db3a-4e64-89c8-9d8a1d4f72bc"
+        "5b0ac195-1f2a-4f0e-8756-d0dcffd5e1e3"
     ],
     "filterType": "GMObject",
     "folderName": "enemie",

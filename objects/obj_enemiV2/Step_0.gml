@@ -18,7 +18,7 @@ if(x = cw/2 && y = cy  + ch/2){
 	if(cooldown <= 0){
 		angle += 1;	
 		cooldown = 3;
-		bullets_enemie(x-wd2,y,angle,vitesse,1,Obj_Shoot_Enemie1);
+		bullets_enemie(x-wd2+16,y-32,angle,vitesse,1,Obj_Shoot_Enemie1);
 		//vitesse = vitesse;
 	}
 	cooldown --;
