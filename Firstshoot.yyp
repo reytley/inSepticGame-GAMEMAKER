@@ -215,6 +215,22 @@
             }
         },
         {
+            "Key": "3574c6d3-abc4-4439-ac24-d623a8b0fd5b",
+            "Value": {
+                "id": "20fd4bd5-29c3-4f3c-b222-28ef7c5a451b",
+                "resourcePath": "objects\\Obj_Shoot_Enemie4\\Obj_Shoot_Enemie4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c450046-897a-4308-8e0a-f6296bc42e22",
+            "Value": {
+                "id": "cca2521d-1698-44ef-be0d-b4ebf7d3a151",
+                "resourcePath": "tilesets\\tileset5\\tileset5.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "3cf97aa0-3431-410d-b721-32b98d254984",
             "Value": {
                 "id": "6cf91373-fab8-481f-a852-89a62ff5b992",
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "6b9ece5b-6bb5-4c44-b820-ffd8caf1271c",
+            "Value": {
+                "id": "aea88d3b-8161-4451-8186-66c7a83df2d4",
+                "resourcePath": "rooms\\Menu\\Menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6e2a496b-c506-4ee4-a1b7-057b7510e7a4",
             "Value": {
                 "id": "ed4759b0-7425-462b-845d-a2053326e1d4",
@@ -323,6 +347,14 @@
             "Value": {
                 "id": "8716e61d-ba2a-44e7-8bec-64095952613b",
                 "resourcePath": "objects\\obj_syst_environ\\obj_syst_environ.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71ce3578-2633-4aa1-83c9-9903e434df02",
+            "Value": {
+                "id": "2f7458af-b9a1-49d5-be5f-1b27f1b6650f",
+                "resourcePath": "objects\\btn\\btn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -375,6 +407,14 @@
             }
         },
         {
+            "Key": "7e9cbb63-39b7-4242-a5fe-f6a160a3f6b1",
+            "Value": {
+                "id": "a2924645-093d-42dc-9ab8-cdedede02a1a",
+                "resourcePath": "sprites\\fond1\\fond1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7ecce21a-4150-4814-938a-648b659d60b3",
             "Value": {
                 "id": "0172886e-4415-4489-a6ef-5145990417f7",
@@ -410,7 +450,7 @@
             "Key": "8976dc09-ba1c-49dd-aceb-b214386ad08f",
             "Value": {
                 "id": "4f8aaf71-3644-445d-8b1c-beb915edeb7a",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\roomBoseA\\roomBoseA.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -450,7 +490,7 @@
             "Key": "9e009200-d2b1-4eb6-9f5b-4471212101d7",
             "Value": {
                 "id": "a47b8a40-2772-4a47-9c35-f9cb8ef995b7",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\Niveau\\Niveau.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -466,7 +506,7 @@
             "Key": "a065a75e-db3a-4e64-89c8-9d8a1d4f72bc",
             "Value": {
                 "id": "d8349c24-578a-4e1a-9d57-9bff7ae6e134",
-                "resourcePath": "objects\\Obj_Shoot_Enemie\\Obj_Shoot_Enemie.yy",
+                "resourcePath": "objects\\Obj_Shoot_Enemie2\\Obj_Shoot_Enemie2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -492,6 +532,14 @@
                 "id": "cdf209c2-02e5-4bf7-ba5b-1b93edf46dda",
                 "resourcePath": "objects\\camera\\camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a71c3f1e-c2e9-48bc-9cda-fd9e5c639d88",
+            "Value": {
+                "id": "fa40c643-fa15-4787-ae29-ad0e3f893e1a",
+                "resourcePath": "sprites\\backmenu\\backmenu.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -556,6 +604,14 @@
                 "id": "99df4945-b85f-4a5a-9912-5d05d4774a02",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccdc9e1c-5d9e-4d19-a9ea-9abba5aa59ef",
+            "Value": {
+                "id": "2166422a-4fa9-4f83-b20c-50ce50c2455a",
+                "resourcePath": "views\\ccdc9e1c-5d9e-4d19-a9ea-9abba5aa59ef.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -668,6 +724,14 @@
                 "id": "b3f65325-16e6-4793-ab6d-5d16ba4b017b",
                 "resourcePath": "views\\eed2b81f-75c5-4a15-9f4b-edea093abafd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef3306dd-e464-420d-901c-a67e55199e40",
+            "Value": {
+                "id": "ea9e934c-3419-4f17-aba3-7d574f27ebba",
+                "resourcePath": "objects\\Bose\\Bose.yy",
+                "resourceType": "GMObject"
             }
         },
         {
