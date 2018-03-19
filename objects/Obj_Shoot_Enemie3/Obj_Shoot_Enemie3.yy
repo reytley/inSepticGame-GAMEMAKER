@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "Obj_Shoot_Enemie3",
     "eventList": [
-        {
-            "id": "c4ccaece-8679-467b-b815-02d3eba14afd",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "9a4c4ed7-8cc9-4efd-86e7-fff276f1e416"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

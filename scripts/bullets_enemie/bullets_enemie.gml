@@ -4,38 +4,39 @@ angle= argument2;
 vitesse = argument3;
 choix = argument4;
 Obj = argument5;
-
+Pspeed = argument6;
 
 
 if(choix = 1 ){
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(angle);
-bullets.rotationx =dsin(angle);
-
+bullets.rotationy = dcos(angle*vitesse);
+bullets.rotationx =dsin(angle*vitesse);
+bullets.speed = Pspeed;
 var bullets = instance_create_layer(posX+vitesse,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(90 +  angle);
-bullets.rotationx =dsin(90 + angle);
+bullets.rotationy = dcos(90 +  angle*vitesse);
+bullets.rotationx =dsin(90 + angle*vitesse);
+bullets.speed = Pspeed;
 
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(180 +  angle);
-bullets.rotationx =dsin(180 + angle);
-
-
-var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-
-bullets.rotationy = dcos(270 +  angle);
-bullets.rotationx =dsin(270 + angle);
+bullets.rotationy = dcos(180 +  angle*vitesse);
+bullets.rotationx =dsin(180 + angle*vitesse);
+bullets.speed = Pspeed;
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(360 +  angle);
-bullets.rotationx =dsin(360 + angle);
+bullets.rotationy = dcos(270 +  angle*vitesse);
+bullets.rotationx =dsin(270 + angle*vitesse);
+bullets.speed = Pspeed;
+var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
+bullets.rotationy = dcos(360 +  angle*vitesse);
+bullets.rotationx =dsin(360 + angle*vitesse);
+bullets.speed = Pspeed;
 }
 
 /*

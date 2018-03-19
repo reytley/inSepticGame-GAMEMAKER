@@ -17,8 +17,8 @@ if(HP >= 6000){
 	if(cooldown <= 0){
 		angle += 20// augmente la vitesse 
 		cooldown = 1;// l'ecart entre chaque tire 
-		bullets_enemie(x-wd2+16,y-32,angle,vitesse,1,Obj_Shoot_Enemie3);
-		bullets_enemie(x-wd2+16,y-32,angle+10,vitesse,1,Obj_Shoot_Enemie3);
+		bullets_enemie(x-wd2+16,y-32,angle,vitesse,1,Obj_Shoot_Enemie3,1);
+		bullets_enemie(x-wd2+16,y-32,angle+10,vitesse,1,Obj_Shoot_Enemie3,1);
 		//vitesse = vitesse;
 	}
 	
@@ -27,8 +27,8 @@ if(HP >= 6000){
 	if(cooldown2 <= 0){
 	    angle2 += 3// augmente la vitesse 
 		cooldown2 = 1;// l'ecart entre chaque tire 
-		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie1);
-		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie1);
+		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie5,1);
+		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie5,1);
 		//vitesse = vitesse;
 	}
 }
@@ -41,8 +41,8 @@ if(HP <= 6000){
 	if(cooldown <= 0){
 		angle += 5;// augmente la vitesse 
 		cooldown = 0;// l'ecart entre chaque tire 
-		bullets_enemie(x-wd2+16,y-32,angle ,vitesse,1,Obj_Shoot_Enemie1);
-		bullets_enemie(x-wd2+16,y-32,angle + 2.5 ,vitesse,1,Obj_Shoot_Enemie1);
+		bullets_enemie(x-wd2+16,y-32,angle ,vitesse,1,Obj_Shoot_Enemie1,1);
+		bullets_enemie(x-wd2+16,y-32,angle + 2.5 ,vitesse,1,Obj_Shoot_Enemie1,1);
 
 		//vitesse = vitesse;
 	}
@@ -55,8 +55,8 @@ if(HP <= 6000){
 	if(cooldown2 <= 0){
 		angle2 += 10// augmente la vitesse 
 		cooldown2 = 3;// l'ecart entre chaque tire 
-		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie2);
-		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie1);
+		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie2,1);
+		bullets_enemie(x-wd2+16,y-32,angle2,vitesse,2,Obj_Shoot_Enemie1,1);
 		//vitesse = vitesse;
 	}
 }

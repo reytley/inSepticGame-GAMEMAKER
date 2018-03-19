@@ -13,8 +13,8 @@ angle += 8;
 cooldown = 60;
 test =sprite_get_width(object_get_sprite(Obj_Shoot_Enemie)) /2	
 test = test*3;
-bullets_enemie(x,y,angle,vitesse,1,Obj_Shoot_Enemie);
-bullets_enemie(x,y,angle,vitesse,4,Obj_Shoot_Enemie);
+bullets_enemie(x,y,angle,vitesse,1,Obj_Shoot_Enemie,1);
+bullets_enemie(x,y,angle,vitesse,4,Obj_Shoot_Enemie,1);
 
 //vitesse = vitesse;
 
