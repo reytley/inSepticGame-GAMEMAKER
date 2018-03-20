@@ -54,3 +54,7 @@ cooldown --
 if(keyboard_check(vk_f9)){
 	show_debug_message(instance_number(Entite_Shoot));
 }
+
+if(keyboard_check(vk_f10)){
+room_restart();
+}
