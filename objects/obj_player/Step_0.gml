@@ -87,10 +87,10 @@ ammoCanon = 50;
 if(KeyShoot) && (cooldown < 1) && (ammoCanon > 0) && (cooldownRegarge < 1)
 {
 	if(ArmeSelect = 1){
-		instance_create_layer(x- 27,y-5,"bulletsLayer",obj_shoot);
-		instance_create_layer(x+ 27,y-5,"bulletsLayer",obj_shoot);
-		instance_create_layer(x+ 45,y+5,"bulletsLayer",obj_shoot);
-		instance_create_layer(x- 45,y+5,"bulletsLayer",obj_shoot);
+		instance_create_layer(x,y,"bulletsLayer",obj_shoot);
+		instance_create_layer(x,y,"bulletsLayer",obj_shoot);
+		instance_create_layer(x,y,"bulletsLayer",obj_shoot);
+		instance_create_layer(x,y,"bulletsLayer",obj_shoot);
 	}
 	if(ArmeSelect = 2){
 		instance_create_layer(x,y-65,"bulletsLayer",obj_shoot2_right);

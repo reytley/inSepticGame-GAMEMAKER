@@ -3,5 +3,8 @@
 
 vitesseCam = 3;
 
-camera_set_view_pos(view_camera[0],camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]));
-//camera_set_view_size(view_camera[0],64*4,64*4)
+//camera_set_view_pos(view_camera[0],camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]));
+//dimPlayerW = sprite_get_width(object_get_sprite(obj_player));
+//dimPlayerH = sprite_get_height(object_get_sprite(obj_player));
+
+
