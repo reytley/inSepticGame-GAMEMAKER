@@ -1,10 +1,10 @@
 
 
-# Projet FirstShoot
+# Projet FirstShoot Version V0.6
 1
 
-`Genre :`
-`Joueurs :`
+`Genre :` Shoot Em UP / Die ANd Retry/ BOSS GAME
+`Joueurs :` 1 à 2 joueur
 `Support :` PC,MOBILE
 `Cible :` adepte des vieux Shoot Em up, des hardCoreGamer
 
@@ -18,7 +18,7 @@ La reproduction des codes bien connu des années 80 avec les jeux de shootemUp(S
 
 
 ### GamePlay
-
+![Image of Yaktocat](logo.png)
 
 il reprendra les bases des SEM mais sera constitué en grande partie de boss. Il et important d'appuyer sur l'unicité de chacun autant pour son gameplay que par son caractère et design.
  le jeux sera en 2d vue aérien. Le joueur incarnera le heros du jeux qui aura à son équipement 3 modes de tirs.
@@ -44,7 +44,7 @@ Seul les bullets/tirs seront coloré pour une meilleur lisibilité de l'écran
 
 ### Univers
 
-
+![Image of Yaktocat](Capture.png)
 
 
 ```HTML
