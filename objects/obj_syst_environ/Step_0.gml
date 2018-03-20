@@ -1,9 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
-
+show_debug_message(fps);
 if(object_exists(obj_entiteEnemie) = false){
 	show_message("nope")
 Scr_procedural_spawn_enemie(1);
@@ -50,4 +48,9 @@ instance_destroy();
 if( cooldown > 0){
 cooldown --
 
+}
+
+
+if(keyboard_check(vk_f9)){
+	show_debug_message(instance_number(Entite_Shoot));
 }

@@ -1,0 +1,10 @@
+Racourci et Controle
+
+
+Souris : Permet le controle du player
+Click Gauche : Permet de tirer
+Shift : ralenti le player 
+F5 : Diminue la vitesse des bullets
+F6 : Augment la vitesse des bullets
+F7 : toute les bulets vont à la même vitesse
+F_ : Détruit toutes les bullets de l'écran

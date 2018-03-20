@@ -1,8 +1,8 @@
 {
-    "id": "59bb32bf-047c-45c6-829f-de5ecceb35cc",
+    "id": "8fcaf987-12a8-4fbb-91ce-d092bb7655dc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player_shoot",
+    "name": "Inlogo",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "e1930a10-4435-4323-bdec-658ac7ba6172",
+    "spriteId": "fdf195ad-9f05-43a3-b31c-cb5eda09c59b",
     "visible": true
 }
