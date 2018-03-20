@@ -18,20 +18,20 @@ window_set_fullscreen(true);
 if(keyboard_check(vk_f5) and cooldown <= 0  ){
 	with(Bose1){
 		SpeedShoot = SpeedShoot + 1;
-		
+		show_debug_message(SpeedShoot)
 	}	
 	cooldown = 8;
-	show_debug_message(cooldown)
+	
 }
 	
 if(keyboard_check(vk_f6)  and cooldown <= 0){
 	with(Bose1){
 		
 		SpeedShoot = SpeedShoot - 1;
-		show_debug_message(cooldown)
+		show_debug_message(SpeedShoot);
 	}
 	cooldown = 8;
-	show_debug_message(cooldown)
+	
 }
 
 if(keyboard_check(vk_f7)){
