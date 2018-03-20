@@ -1,7 +1,7 @@
 /// @description Variable
 // You can write your code in this editor
 
-life = 100;
+life = 3;
 cooldown = 0;
 ammoCanon = 5000; //multiple 4 for canon
 cooldownRegarge = 0;

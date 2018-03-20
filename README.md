@@ -1,15 +1,15 @@
 
 ![Image of FS](/images/logo.png)
-# Projet FirstShoot Version V0.6
+# Projet LostCost Version V0.6
 ![Image of FS](images/LogoCap.PNG)
 
 `Genre :` Shoot Em UP / Die ANd Retry/ BOSS GAME
 `Joueurs :` 1 à 2 joueur
 `Support :` PC,MOBILE
 `Cible :` adepte des vieux Shoot Em up, des hardCoreGamer
-
+`Environnement de dev :` Game Maker GML langage
 FirstShoot a pour but principal de nous permettres la prise en main du logiciel gameMakerV2.
-Il permettra aussi la répartition de taches et le travail de groupe. 
+Il permettra aussi la répartition de tâches et le travail de groupe. 
 
 
 ### BackGround / Concept
@@ -20,11 +20,13 @@ La reproduction des codes bien connu des années 80 avec les jeux de shootemUp(S
 ### GamePlay
 ![Image of FS](images/screen1.PNG)
 
-il reprendra les bases des SEM mais sera constitué en grande partie de boss. Il et important d'appuyer sur l'unicité de chacun autant pour son gameplay que par son caractère et design.
- le jeux sera en 2d vue aérien. Le joueur incarnera le heros du jeux qui aura à son équipement 3 modes de tirs.
+il reprendra les bases des SEM mais sera constitué en grande partie de boss. Il est important d'appuyer sur l'unicité de chacun autant pour son gameplay que par son caractère et design.
+Le jeux sera en 2d vue aérien. Le joueur incarnera le heros du jeux qui aura à son équipement 3 modes de tirs.
  Ainsi que des bombes limité dans son inventaire qui permettrons la supression de toutes les bullets à l'écran
  et d'un nombre de vie de 3. Si le joueur atteint 3 mort il sera invité à insérer un jeton qui lui retira des points de score. 
- Le but et donc d'éviter les tirs à l'écran tout en visant et tirant sur le boss.
+ Le but et donc de survivre au différent niveaux.
+ Chaque niveau peut avoir un objectif different.
+ tuez le boss,survivre à un chrono, atteindre un score. 
  Un score sera établie pour chaque partie et dépendra des performance divers du joeurs. 
 > temps pour conclure le niveau
 > Mort du joueur

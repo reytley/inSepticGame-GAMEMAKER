@@ -16,6 +16,7 @@ cooldown2 = 0;
 vitesse = 1;
 angle = 0;
 angle2 = 0;
+dipsersion = 1.15;
 av =12;
 SpeedShoot = 1;
 wd2 =sprite_get_width(object_get_sprite(Obj_Shoot_Enemie1)) /2	

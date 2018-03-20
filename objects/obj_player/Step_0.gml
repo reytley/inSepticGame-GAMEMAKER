@@ -1,4 +1,8 @@
 
+if(life <= 0){
+game_restart()
+
+}
 
 /// @description Moving Shoot Animate
 // You can write your code in this editor
