@@ -1,7 +1,7 @@
 
 ![Image of FS](/images/logo.png)
 # Projet FirstShoot Version V0.6
-![Image of FS](/images/LogoCap.png)
+![Image of FS](images/LogoCap.PNG)
 
 `Genre :` Shoot Em UP / Die ANd Retry/ BOSS GAME
 `Joueurs :` 1 à 2 joueur
@@ -18,7 +18,7 @@ La reproduction des codes bien connu des années 80 avec les jeux de shootemUp(S
 
 
 ### GamePlay
-![Image of FS](/images/screen1.png)
+![Image of FS](images/screen1.PNG)
 
 il reprendra les bases des SEM mais sera constitué en grande partie de boss. Il et important d'appuyer sur l'unicité de chacun autant pour son gameplay que par son caractère et design.
  le jeux sera en 2d vue aérien. Le joueur incarnera le heros du jeux qui aura à son équipement 3 modes de tirs.
@@ -43,7 +43,7 @@ Un aspect Pixelisé à été choisi avec 3 nuance gris-blanc-noir.
 Seul les bullets/tirs seront coloré pour une meilleur lisibilité de l'écran
 
 ### Univers
-![Image of FS](/images/screen1.png)
+![Image of FS](images/screen2.PNG)
 
 ```HTML
 <HEAD>Update for Version 0.5</HEAD>
