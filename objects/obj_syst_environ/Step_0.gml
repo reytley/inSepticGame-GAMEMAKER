@@ -33,17 +33,18 @@ if(keyboard_check(vk_f6)  and cooldown <= 0){
 }
 
 if(keyboard_check(vk_f7)){
-
 with(Entite_Shoot){
-speed = 5;
+	
+speed = speed / 2;
+}
 }
 
-}
 
-if(keyboard_check(vk_f8)){
-with(Entite_Shoot){
-instance_destroy();
-}
+
+if(keyboard_check(vk_f9)){
+	with(Entite_Shoot){
+		instance_destroy();
+	}
 }
 if( cooldown > 0){
 cooldown --
@@ -51,10 +52,10 @@ cooldown --
 }
 
 
-if(keyboard_check(vk_f9)){
+if(keyboard_check(vk_f10)){
 	show_debug_message(instance_number(Entite_Shoot));
 }
 
-if(keyboard_check(vk_f10)){
+if(keyboard_check(vk_f11)){
 room_restart();
 }

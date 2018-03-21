@@ -8,7 +8,10 @@
 with(other)
 {
  HP = HP - 5;
+obj_text.lifeEnemieEnCours = HP;
+
 }
+
 
 
 

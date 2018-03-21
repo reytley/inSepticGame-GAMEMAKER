@@ -346,7 +346,7 @@
             "Key": "70f3afc9-a752-4f94-8bf4-b493d8eb07b5",
             "Value": {
                 "id": "2bde0e4b-4bae-4067-ad6b-0c401abc00f0",
-                "resourcePath": "objects\\Text\\Text.yy",
+                "resourcePath": "objects\\obj_text\\obj_text.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -490,7 +490,7 @@
             "Key": "93db9e24-c66b-4a62-b8a5-a5bd8008ebc3",
             "Value": {
                 "id": "7fe2b226-d5ca-48ec-b1b6-b1c5fc378785",
-                "resourcePath": "objects\\en_lambda\\en_lambda.yy",
+                "resourcePath": "objects\\en_MUR\\en_MUR.yy",
                 "resourceType": "GMObject"
             }
         },

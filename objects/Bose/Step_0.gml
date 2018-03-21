@@ -6,13 +6,9 @@ av = av / 1.04;
 y += av;
 
 }*/
-var cx = camera_get_view_x(view_camera[0])
-var cy = camera_get_view_y(view_camera[0])
-var cw = camera_get_view_width(view_camera[0]);
-var ch = camera_get_view_height(view_camera[0]);
+
 //y = y - camera.vitesseCam;
 v = v +1
-
 if(HP <= 12000){
 	if(cooldown <= 0){
 		
@@ -25,6 +21,7 @@ if(HP <= 12000){
 	}
 	
 }
+
 if(HP >= 6000){
 	if(cooldown2 <= 0){
 	    angle2 += 3// augmente la vitesse 
@@ -57,7 +54,7 @@ if(HP <= 6000){
 		angle2 += 10// augmente la vitesse 
 		cooldown4 = 3;// l'ecart entre chaque tire 
 		bullets_enemie(x,y,angle2,dipsersion,2,Obj_Shoot_Enemie2,4);
-		bullets_enemie(x,y,angle2,dipsersion,2,Obj_Shoot_Enemie1,4);
+		//bullets_enemie(x,y,angle2,dipsersion,2,Obj_Shoot_Enemie1,4);
 		//vitesse = vitesse;
 	}
 }
