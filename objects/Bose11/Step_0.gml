@@ -18,9 +18,18 @@ var ch = camera_get_view_height(view_camera[0]);
 	
 	
 //DEUXIEME ETAPE	
-if(HP >= 6000) and cooldown <= 0 {
-cooldown = 10
-bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie51);
+if(HP >= 6000){
+	if(cooldown <= 0){
+		angle += 5;// augmente la vitesse 
+		cooldown = 2;// l'ecart entre chaque tire 
+		bullets_enemie(x,y,angle + random(75) ,3,Obj_Shoot_Enemie1,SpeedShoot,4);
+		bullets_enemie(x,y,angle + random(75) ,3,Obj_Shoot_Enemie1,SpeedShoot,4);
+	//	bullets_enemie(x-wd2+16,y-32,angle + 2.5 ,vitesse,1,Obj_Shoot_Enemie2);
+
+		//vitesse = vitesse;
+	}
+	
+
 
 
 }
@@ -31,7 +40,7 @@ bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie51);
 
 
 
-SpeedShoot ++
+
 cooldown --;
 cooldown2 --;
  

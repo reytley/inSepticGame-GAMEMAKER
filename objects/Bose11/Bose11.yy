@@ -1,33 +1,33 @@
 {
-    "id": "8fcaf987-12a8-4fbb-91ce-d092bb7655dc",
+    "id": "1afd468e-3652-4131-9276-aaecbb6dfdaa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Inlogo",
+    "name": "Bose11",
     "eventList": [
         {
-            "id": "bb38f56b-6836-459e-be26-783f29c38225",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "8fcaf987-12a8-4fbb-91ce-d092bb7655dc"
-        },
-        {
-            "id": "6915d72d-7773-4ac2-b922-b16e2750b469",
+            "id": "94e8fc6b-e90d-494f-9c55-71fa6cf62093",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8fcaf987-12a8-4fbb-91ce-d092bb7655dc"
+            "m_owner": "1afd468e-3652-4131-9276-aaecbb6dfdaa"
+        },
+        {
+            "id": "230b4698-cbf3-4857-b2c7-41a7fad08eba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "1afd468e-3652-4131-9276-aaecbb6dfdaa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "a1e61830-2d0a-4a33-b40c-f29d85dde4fe",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fdf195ad-9f05-43a3-b31c-cb5eda09c59b",
+    "spriteId": "f0337262-b1c8-4108-ba92-d69c9c9cb5c4",
     "visible": true
 }

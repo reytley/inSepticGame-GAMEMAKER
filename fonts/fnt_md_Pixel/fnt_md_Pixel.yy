@@ -2,7 +2,7 @@
     "id": "06fb94b7-b1d3-42c2-bb7e-6ade35a4b246",
     "modelName": "GMFont",
     "mvc": "1.0",
-    "name": "fnt_Pixel",
+    "name": "fnt_md_Pixel",
     "AntiAlias": 0,
     "TTFName": "",
     "bold": false,

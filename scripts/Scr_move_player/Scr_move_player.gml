@@ -13,5 +13,6 @@ if(keyup){
 	y = y - v;
 }
 if(keyDown){
-	y = y + v;
+	y = y + v; 
 }
+

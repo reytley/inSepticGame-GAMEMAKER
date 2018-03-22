@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "03c642f1-4fec-4e84-befa-9f134371d438",
+            "Value": {
+                "id": "4c0d9aaf-629b-4fdd-a454-4fb58cf44ec4",
+                "resourcePath": "sprites\\bullet\\bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "059fc3a4-1a66-429e-a268-89f27128fe46",
             "Value": {
                 "id": "d63696f9-0ce6-4918-b84f-279af8fcff25",
@@ -50,7 +58,7 @@
             "Key": "06fb94b7-b1d3-42c2-bb7e-6ade35a4b246",
             "Value": {
                 "id": "353654ac-a4ac-43f7-bd1f-ddb35f3c2fda",
-                "resourcePath": "fonts\\fnt_Pixel\\fnt_Pixel.yy",
+                "resourcePath": "fonts\\fnt_md_Pixel\\fnt_md_Pixel.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -132,6 +140,14 @@
                 "id": "4165490c-6b59-4056-8dbc-eada038f64a7",
                 "resourcePath": "views\\1a4d1bef-cbc8-4fa8-8827-f7d32239721b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1afd468e-3652-4131-9276-aaecbb6dfdaa",
+            "Value": {
+                "id": "d6b8407f-7d1f-4b93-a75f-16694de4dab7",
+                "resourcePath": "objects\\Bose11\\Bose11.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -631,6 +647,14 @@
             }
         },
         {
+            "Key": "c85176c3-3e46-4728-bf86-f49bf939e7c2",
+            "Value": {
+                "id": "a607e77d-67f8-4369-80d3-56cf77cadb43",
+                "resourcePath": "fonts\\fnt_HIGHSCORE\\fnt_HIGHSCORE.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "99df4945-b85f-4a5a-9912-5d05d4774a02",
@@ -708,6 +732,14 @@
                 "id": "1ef23880-f0c6-48af-b1f6-fcd833b4031b",
                 "resourcePath": "scripts\\Scr_move_player\\Scr_move_player.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dd421752-934f-4576-948c-64ab324be2da",
+            "Value": {
+                "id": "032850ce-501e-4284-81d7-23e32cbf78a7",
+                "resourcePath": "objects\\Obj_Shoot_Enemie51\\Obj_Shoot_Enemie51.yy",
+                "resourceType": "GMObject"
             }
         },
         {
