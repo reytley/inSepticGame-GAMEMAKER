@@ -25,6 +25,13 @@ bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie51);
 
 }
 
+if(HP <= 6000) and cooldown <= 0 {
+cooldown = 10
+bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie51);
+
+
+}
+
 
 	
 
@@ -60,5 +67,5 @@ if(HP <= 0){
 effect_create_above(ef_explosion,x - 95, y - 95  , 2, c_red);
 
 instance_destroy();
-room_goto(0)
+
 }

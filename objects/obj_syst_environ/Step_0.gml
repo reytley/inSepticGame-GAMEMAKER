@@ -2,6 +2,16 @@
 // You can write your code in this editor
 
 show_debug_message(fps);
+ 
+ 
+ if(instance_number(obj_entiteEnemie) = 0){
+ Scr_procedural_spawn_enemie(irandom_range(1,5));
+ //instance_create_layer(cw,ch/2,"bulletsLayer",en_MUR);
+ }
+ 
+///TOUCH DEBUG 
+
+
 if(object_exists(obj_entiteEnemie) = false){
 	show_message("nope")
 Scr_procedural_spawn_enemie(1);
