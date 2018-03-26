@@ -1,7 +1,7 @@
 posX = argument0;
 posY = argument1;
 angle= argument2;
-vitesse = argument3;
+dispersion = argument3;
 choix = argument4;
 Obj = argument5;
 Pspeed = argument6;
@@ -11,31 +11,31 @@ if(choix = 1 ){
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(angle*vitesse);
-bullets.rotationx =dsin(angle*vitesse);
+bullets.rotationy = dcos(angle*dispersion);
+bullets.rotationx =dsin(angle*dispersion);
 bullets.speed = Pspeed;
-var bullets = instance_create_layer(posX+vitesse,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(90 +  angle*vitesse);
-bullets.rotationx =dsin(90 + angle*vitesse);
+var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+bullets.rotationy = dcos(90 +  angle*dispersion);
+bullets.rotationx =dsin(90 + angle*dispersion);
 bullets.speed = Pspeed;
 
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(180 +  angle*vitesse);
-bullets.rotationx =dsin(180 + angle*vitesse);
+bullets.rotationy = dcos(180 +  angle*dispersion);
+bullets.rotationx =dsin(180 + angle*dispersion);
 bullets.speed = Pspeed;
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(270 +  angle*vitesse);
-bullets.rotationx =dsin(270 + angle*vitesse);
+bullets.rotationy = dcos(270 +  angle*dispersion);
+bullets.rotationx =dsin(270 + angle*dispersion);
 bullets.speed = Pspeed;
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(360 +  angle*vitesse);
-bullets.rotationx =dsin(360 + angle*vitesse);
+bullets.rotationy = dcos(360 +  angle*dispersion);
+bullets.rotationx =dsin(360 + angle*dispersion);
 bullets.speed = Pspeed;
 }
 
@@ -60,13 +60,13 @@ if(choix = 2 ){
 	
 var bullets2 = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets2.rotationx = 1;
-bullets2.rotationy = trigonometrie(1,angle*vitesse);
+bullets2.rotationy = trigonometrie(1,angle*dispersion);
 }
 
 if(choix = 2 ){
 var bullets2 = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets2.rotationx = -1;
-bullets2.rotationy = trigonometrie(1,angle*vitesse);
+bullets2.rotationy = trigonometrie(1,angle*dispersion);
 }
 
 
@@ -74,26 +74,26 @@ bullets2.rotationy = trigonometrie(1,angle*vitesse);
 if(choix = 2 ){
 var bullets2 = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets2.rotationx =  -1;
-bullets2.rotationy =  -trigonometrie(1,angle*vitesse);
+bullets2.rotationy =  -trigonometrie(1,angle*dispersion);
 }
 
 if(choix = 2 ){
 var bullets2 = instance_create_layer(posX,posY,"bulletsLayer",Obj );
 bullets2.rotationx = 1;  
-bullets2.rotationy = -trigonometrie(1,angle*vitesse);
+bullets2.rotationy = -trigonometrie(1,angle*dispersion);
 }
 
 if(choix = 3 ){
 	
 var bullets3 = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets3.rotationy = 1;
-bullets3.rotationx = trigonometrie(1,angle*vitesse);
+bullets3.rotationx = trigonometrie(1,angle*dispersion);
 }
 
 if(choix = 3 ){
 var bullets3 = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets3.rotationy = -1;
-bullets3.rotationx = trigonometrie(1,angle*vitesse);
+bullets3.rotationx = trigonometrie(1,angle*dispersion);
 }
 
 
@@ -101,13 +101,13 @@ bullets3.rotationx = trigonometrie(1,angle*vitesse);
 if(choix = 3 ){
 var bullets3 = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets3.rotationy =  -1;
-bullets3.rotationx =  -trigonometrie(1,angle*vitesse);
+bullets3.rotationx =  -trigonometrie(1,angle*dispersion);
 }
 
 if(choix = 3 ){
 var bullets3 = instance_create_layer(posX,posY,"bulletsLayer",Obj );
 bullets3.rotationy = 1;  
-bullets3.rotationx = -trigonometrie(1,angle*vitesse);
+bullets3.rotationx = -trigonometrie(1,angle*dispersion);
 }
 
 
@@ -117,4 +117,13 @@ if(choix = 4 ){
 		bullets4.rotationy = dcos(i +  angle);
 		bullets4.rotationx =dsin(i + angle);
 	}
+}
+
+if(choix = 5){
+	var bullets5 = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+	with(bullets5){
+	 mp_linear_step(obj_player.x,obj_player.y, Pspeed, 0);
+	
+	}
+
 }

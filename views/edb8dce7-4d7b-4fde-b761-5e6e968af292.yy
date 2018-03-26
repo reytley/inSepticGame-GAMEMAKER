@@ -9,7 +9,8 @@
         "0c982ebc-8e5b-4af4-b844-37c002cf15dc",
         "646d5a00-771c-46e4-9898-ef5da5d3f1b8",
         "3fa3150b-8d52-4caa-b6be-442eec17618a",
-        "baeebd06-b346-4d93-9231-b543d5e5290a"
+        "baeebd06-b346-4d93-9231-b543d5e5290a",
+        "03c642f1-4fec-4e84-befa-9f134371d438"
     ],
     "filterType": "GMSprite",
     "folderName": "shoot",

@@ -1,0 +1,34 @@
+Racourci et Controle
+
+
+Souris : Permet le controle du player
+Click Gauche : Permet de tirer
+Shift : ralenti le player 
+F5 : Diminue la vitesse des bullets
+F6 : Augment la vitesse des bullets
+F7 : toute les bulets vont à la même vitesse
+F_ : Détruit toutes les bullets de l'écran
+
+
+A FAIRE 
+Creer une transition de l'étape 1 a 2 du bose 1  au les tirs de l'étape 2 vont plus vite
+
+
+
+
+
+
+FONCTION UTILE
+
+Permet un mouvement rotation 360°
+/*
+y = y+dcos(v)
+x= x+dsin(v) 
+*/
+
+
+Permet Un mouvemement diagonal
+/*
+y = y+dcos(v)
+x= x+dcos(v) 
+*/
