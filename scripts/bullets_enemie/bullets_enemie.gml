@@ -150,3 +150,10 @@ bullets.speed = Pspeed;
 
 
 }
+if(choix = 6){
+	var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+bullets.rotationy = dcos( angle);
+bullets.rotationx =dsin(angle);
+bullets.speed = Pspeed;
+	
+	}

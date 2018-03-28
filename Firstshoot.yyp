@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "d2e3fb2b-91a5-4627-a129-7ab368546929",
+            "Value": {
+                "id": "0aefde7c-60a9-4a42-bee9-378b5b15bf82",
+                "resourcePath": "objects\\obj_Enemie3\\obj_Enemie3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d51695e9-f22e-42bd-b242-215e1cd15043",
             "Value": {
                 "id": "aba092e4-3523-45da-b50e-1053585de92c",

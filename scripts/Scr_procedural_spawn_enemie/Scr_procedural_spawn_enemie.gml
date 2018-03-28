@@ -17,21 +17,26 @@ var enemie = instance_create_layer(cw-100, cy  + ch/2,"bulletsLayer",obj_enemie1
 var enemie = instance_create_layer(cw-100, cy  + ch/6,"bulletsLayer",obj_enemie1);
 }
 
+
+
 if(choix = 3){
-	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",obj_Bose2);
-	
-}
-
-if(choix = 4){
-	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",obj_Bose1);
-	
-}
-
-
-if(choix = 5){
 
 	var enemie = instance_create_layer(cw+252, ch- irandom_range(100,ch-100)  ,"bulletsLayer",obj_Enemie2);
 //	var enemie = instance_create_layer(cw-100, cy  + cy/12*2,"bulletsLayer",obj_Enemie2);
 
+	
+}
+if(choix = 4){
+	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",obj_Bose2);
+	
+}
+
+if(choix = 5){
+	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",obj_Bose1);
+	
+}
+
+if(choix = 6){
+	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",obj_Enemie3);
 	
 }
