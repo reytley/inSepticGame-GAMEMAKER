@@ -6,32 +6,32 @@ var cw = camera_get_view_width(view_camera[0]);
 var ch = camera_get_view_height(view_camera[0]);
 
 if(choix = 1){
-var enemie = instance_create_layer(cw,ch/2,"bulletsLayer",en_MUR);
+var enemie = instance_create_layer(cw,ch/2,"bulletsLayer",obj_enemie1);
 
 }
 
 
 if(choix = 2){
-	var enemie = instance_create_layer(cw-100, cy ,"bulletsLayer",en_MUR);
-var enemie = instance_create_layer(cw-100, cy  + ch/2,"bulletsLayer",en_MUR);
-var enemie = instance_create_layer(cw-100, cy  + ch/6,"bulletsLayer",en_MUR);
+	var enemie = instance_create_layer(cw-100, cy ,"bulletsLayer",obj_enemie1);
+var enemie = instance_create_layer(cw-100, cy  + ch/2,"bulletsLayer",obj_enemie1);
+var enemie = instance_create_layer(cw-100, cy  + ch/6,"bulletsLayer",obj_enemie1);
 }
 
 if(choix = 3){
-	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",Bose);
+	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",obj_Bose2);
 	
 }
 
 if(choix = 4){
-	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",Bose1);
+	var enemie = instance_create_layer(cw-250, cy+ ch/2 ,"bulletsLayer",obj_Bose1);
 	
 }
 
 
 if(choix = 5){
 
-	var enemie = instance_create_layer(cw-100, cy  + cy/12,"bulletsLayer",Enemie2);
-	var enemie = instance_create_layer(cw-100, cy  + cy/12*2,"bulletsLayer",Enemie2);
-	
+	var enemie = instance_create_layer(cw+252, ch- irandom_range(100,ch-100)  ,"bulletsLayer",obj_Enemie2);
+//	var enemie = instance_create_layer(cw-100, cy  + cy/12*2,"bulletsLayer",obj_Enemie2);
+
 	
 }

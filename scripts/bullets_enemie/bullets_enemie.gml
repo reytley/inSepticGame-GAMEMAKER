@@ -127,3 +127,26 @@ if(choix = 5){
 	}
 
 }
+
+if(choix = 6){
+var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+bullets.rotationy = dcos(90 +  angle*dispersion);
+bullets.rotationx =dsin(90 + angle*dispersion);
+bullets.speed = Pspeed;
+
+
+var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+
+bullets.rotationy = dcos(135 +  angle*dispersion);
+bullets.rotationx =dsin(135 + angle*dispersion);
+bullets.speed = Pspeed;
+
+var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+bullets.direction = 180;
+//bullets.rotationy = dcos(45 +  angle*dispersion);
+//bullets.rotationx =dsin(45 + angle*dispersion);
+bullets.speed = Pspeed;
+
+
+
+}

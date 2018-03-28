@@ -8,8 +8,8 @@
 //ligne 1
 draw_set_font(fnt_md_Pixel);
 
-//draw_set_colour(make_color_rgb(213, 33, 11));
-draw_set_colour(c_black);
+draw_set_colour(make_color_rgb(163, 18, 18));
+//draw_set_colour(c_black);
 
 
 draw_text(((Caw/24)*10), 0,"HIGH-SCORE :");

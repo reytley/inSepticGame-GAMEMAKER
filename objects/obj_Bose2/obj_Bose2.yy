@@ -2,7 +2,7 @@
     "id": "ef3306dd-e464-420d-901c-a67e55199e40",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Bose",
+    "name": "obj_Bose2",
     "eventList": [
         {
             "id": "542992b7-1ee1-4615-926d-26edb0bc45d4",
