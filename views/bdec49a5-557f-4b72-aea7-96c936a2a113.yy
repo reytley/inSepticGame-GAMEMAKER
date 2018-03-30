@@ -11,7 +11,8 @@
         "3574c6d3-abc4-4439-ac24-d623a8b0fd5b",
         "1517759c-7bca-47e9-bc1e-08db39d38d4a",
         "dd421752-934f-4576-948c-64ab324be2da",
-        "ec367eae-ef46-496b-913d-99185867cc84"
+        "ec367eae-ef46-496b-913d-99185867cc84",
+        "4a2e45c6-67df-44c3-bdd5-c554cb65c9e1"
     ],
     "filterType": "GMObject",
     "folderName": "shoot",

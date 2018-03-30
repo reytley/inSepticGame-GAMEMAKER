@@ -6,7 +6,7 @@ show_debug_message(fps);
  
  if(instance_number(obj_entiteEnemie) = 0){
 
- Scr_procedural_spawn_enemie(6);
+ Scr_procedural_spawn_enemie(irandom_range(7,7));
  //instance_create_layer(cw,ch/2,"bulletsLayer",en_MUR);
  }
  
@@ -72,5 +72,9 @@ room_restart();
 }
 
 if(keyboard_check(vk_f12)){
-layer_add_instance(layer_get_id("inst_player2"), obj_player);
+	shader_reset();
+
+game_restart()
+shader_reset();
+
 }

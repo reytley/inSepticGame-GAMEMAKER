@@ -20,14 +20,14 @@ var ch = camera_get_view_height(view_camera[0]);
 //DEUXIEME ETAPE	
 if(HP >= 6000) and cooldown <= 0 {
 cooldown = 10
-bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie51);
+bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_SuitEnemie1);
 
 
 }
 
 if(HP <= 6000) and cooldown <= 0 {
 cooldown = 10
-bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_Enemie51);
+bullets =	 instance_create_layer(x,y,"bulletsLayer",Obj_Shoot_SuitEnemie1);
 
 
 }

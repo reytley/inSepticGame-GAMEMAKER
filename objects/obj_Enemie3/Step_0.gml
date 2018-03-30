@@ -3,12 +3,12 @@ x = x - 4;
 
 if(cooldown <= 0){
 	
-cooldown = 50;
+cooldown = irandom_range(20,100);
 
 
-for (i = 0; i < 380; i += 1)
+for (i = 0; i < 380; i += irandom_range(2,8))
    {
-  bullets_enemie(x,y,i,1,6,Obj_Shoot_Enemie3,8);
+  bullets_enemie(x,y,i,1,6,Obj_Shoot_Enemie1,8);
    }
 
 }

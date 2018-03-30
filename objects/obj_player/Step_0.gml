@@ -1,6 +1,7 @@
 
 if(life <= 0){
-game_restart()
+	show_message("dead")
+room_restart()
 
 }
 

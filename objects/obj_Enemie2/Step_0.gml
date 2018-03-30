@@ -1,11 +1,11 @@
 
-x = x - 4;
+x = x - 7;
 
 if(cooldown <= 0){
 	
 angle += 8;	
-cooldown = 60;
-bullets_enemie(x,y,0 ,1,6,Obj_Shoot_Enemie52,8);
+cooldown = 25;
+bullets_enemie(x,y,0 ,1,6,Obj_Shoot_Enemie52,22);
 
 
 
