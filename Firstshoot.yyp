@@ -50,7 +50,7 @@
             "Key": "03c642f1-4fec-4e84-befa-9f134371d438",
             "Value": {
                 "id": "4c0d9aaf-629b-4fdd-a454-4fb58cf44ec4",
-                "resourcePath": "sprites\\bullet\\bullet.yy",
+                "resourcePath": "sprites\\spr_shoot7\\spr_shoot7.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -74,7 +74,7 @@
             "Key": "0c982ebc-8e5b-4af4-b844-37c002cf15dc",
             "Value": {
                 "id": "db4269ea-efbb-4342-8981-2518abc21c44",
-                "resourcePath": "sprites\\shoots\\shoots.yy",
+                "resourcePath": "sprites\\spr_shoot4\\spr_shoot4.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "21a04f0a-43d0-4f6f-b478-c694ac4068c4",
             "Value": {
                 "id": "7c3c609d-700c-47c1-984c-4d7ea622e74c",
-                "resourcePath": "sprites\\Choc\\Choc.yy",
+                "resourcePath": "sprites\\spr_shoot3\\spr_shoot3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -354,7 +354,7 @@
             "Key": "3fa3150b-8d52-4caa-b6be-442eec17618a",
             "Value": {
                 "id": "a37fe600-342f-431d-95f6-52ca431e4602",
-                "resourcePath": "sprites\\shoot227\\shoot227.yy",
+                "resourcePath": "sprites\\spr_shoot6\\spr_shoot6.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -418,7 +418,7 @@
             "Key": "646d5a00-771c-46e4-9898-ef5da5d3f1b8",
             "Value": {
                 "id": "ab3bf670-9fdf-4c3a-9a99-df4a783946b6",
-                "resourcePath": "sprites\\shoot\\shoot.yy",
+                "resourcePath": "sprites\\spr_shoot1\\spr_shoot1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "8a146347-8d22-47a6-bf80-57a7d26ecd27",
+            "Value": {
+                "id": "368b717a-6ede-4827-b2ec-d14dd447e752",
+                "resourcePath": "views\\8a146347-8d22-47a6-bf80-57a7d26ecd27.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8da5ad76-80af-487d-ad1d-0cd383096453",
             "Value": {
                 "id": "808d3f5c-ef2d-4dd8-9cc8-d61467cd81b7",
@@ -818,7 +826,7 @@
             "Key": "baeebd06-b346-4d93-9231-b543d5e5290a",
             "Value": {
                 "id": "65ca8920-fb3d-48e2-836c-501f47d023e5",
-                "resourcePath": "sprites\\shoot5\\shoot5.yy",
+                "resourcePath": "sprites\\spr_shoot5\\spr_shoot5.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -938,7 +946,7 @@
             "Key": "d9a38aa1-2b97-4fbb-8ee5-ce9934f6696f",
             "Value": {
                 "id": "66693c16-b279-4e15-a612-9a94a35eb7c6",
-                "resourcePath": "sprites\\shoot2\\shoot2.yy",
+                "resourcePath": "sprites\\spr_shoot2\\spr_shoot2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1026,7 +1034,7 @@
             "Key": "ec367eae-ef46-496b-913d-99185867cc84",
             "Value": {
                 "id": "bebbbc08-cfbe-47ab-a98a-47c5e2205c89",
-                "resourcePath": "objects\\Obj_Shoot_Enemie52\\Obj_Shoot_Enemie52.yy",
+                "resourcePath": "objects\\Obj_Shoot_type1\\Obj_Shoot_type1.yy",
                 "resourceType": "GMObject"
             }
         },

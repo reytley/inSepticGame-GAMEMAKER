@@ -2,7 +2,7 @@
     "id": "ec367eae-ef46-496b-913d-99185867cc84",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Obj_Shoot_Enemie52",
+    "name": "Obj_Shoot_type1",
     "eventList": [
         {
             "id": "51ad5e45-28e0-47ee-ac78-6b39298731c1",

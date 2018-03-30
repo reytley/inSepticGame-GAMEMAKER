@@ -5,38 +5,36 @@ dispersion = argument3;
 choix = argument4;
 Obj = argument5;
 Pspeed = argument6;
-
-
+Spr = spr_shoot2
 if(choix = 1 ){
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-
-bullets.rotationy = dcos(angle*dispersion);
-bullets.rotationx =dsin(angle*dispersion);
+bullets.angle = angle*dispersion;
 bullets.speed = Pspeed;
-
-var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-bullets.rotationy = dcos(90 +  angle*dispersion);
-bullets.rotationx =dsin(90 + angle*dispersion);
-bullets.speed = Pspeed;
+bullets.sprite_index = Spr
 
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-
-bullets.rotationy = dcos(180 +  angle*dispersion);
-bullets.rotationx =dsin(180 + angle*dispersion);
+bullets.angle = 90 +  angle*dispersion;
 bullets.speed = Pspeed;
+bullets.sprite_index = Spr
 
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(270 +  angle*dispersion);
-bullets.rotationx =dsin(270 + angle*dispersion);
+bullets.angle =180 +  angle*dispersion;
+
 bullets.speed = Pspeed;
+bullets.sprite_index = Spr
+var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+bullets.angle = 270 +  angle*dispersion;
+
+bullets.speed = Pspeed;
+bullets.sprite_index = Spr
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 
-bullets.rotationy = dcos(360 +  angle*dispersion);
-bullets.rotationx =dsin(360 + angle*dispersion);
+bullets.angle = 360 +  angle*dispersion;
 bullets.speed = Pspeed;
+bullets.sprite_index = Spr
 }
 
 /*
@@ -130,30 +128,29 @@ if(choix = 5){
 
 if(choix = 6){
 var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-bullets.rotationy = dcos(90 +  angle*dispersion);
-bullets.rotationx =dsin(90 + angle*dispersion);
-bullets.speed = Pspeed;
-
-
-var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-
-bullets.rotationy = dcos(135 +  angle*dispersion);
-bullets.rotationx =dsin(135 + angle*dispersion);
-bullets.speed = Pspeed;
-
-var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-bullets.direction = 180;
-//bullets.rotationy = dcos(45 +  angle*dispersion);
-//bullets.rotationx =dsin(45 + angle*dispersion);
-bullets.speed = Pspeed;
+	bullets.angle = 180;
+	bullets.speed = 5
 
 
 
 }
-if(choix = 6){
+if(choix = 7){
 	var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
 bullets.rotationy = dcos( angle);
 bullets.rotationx =dsin(angle);
 bullets.speed = Pspeed;
 	
 	}
+	
+	
+	
+if(choix = 8){
+	var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
+	bullets.angle = 180;
+	bullets.speed = 5
+}
+
+	
+	
+	
+	

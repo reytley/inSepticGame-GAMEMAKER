@@ -1,16 +1,16 @@
-v= v+5
-x = x +sin(v);
+v= v+1
+
+
 
 if(cooldown <= 0){
 	
-cooldown = irandom_range(20,100);
+cooldown = 5;
 
 
-for (i = 0; i < 380; i += irandom_range(2,8))
-   {
-		bullets_enemie(x,y,i,1,6,Obj_Shoot_Enemie1,8);
-   }
 
+	var bullets = 	bullets_enemie(x,y,0,1,6,Obj_Shoot_Enemie52,8);
+
+   
 }
 cooldown --;
 

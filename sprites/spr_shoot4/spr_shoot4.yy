@@ -2,7 +2,7 @@
     "id": "0c982ebc-8e5b-4af4-b844-37c002cf15dc",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "shoots",
+    "name": "spr_shoot4",
     "For3D": false,
     "HTile": false,
     "VTile": false,

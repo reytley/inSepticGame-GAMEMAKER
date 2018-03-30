@@ -8,7 +8,7 @@ cooldown = irandom_range(20,100);
 
 for (i = 0; i < 380; i += irandom_range(2,8))
    {
-  bullets_enemie(x,y,i,1,6,Obj_Shoot_Enemie1,8);
+  bullets_enemie(x,y,i,1,7,Obj_Shoot_Enemie1,8);
    }
 
 }

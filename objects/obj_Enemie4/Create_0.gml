@@ -5,7 +5,7 @@
 HP = 3000;
 spd = 10;
 maxBal = 40; 
-v = 2;
+v = 0;
 cooldown = 0;
 vitesse = 1;
 angle = 0;

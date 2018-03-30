@@ -15,7 +15,7 @@ if(HP <= 9000 && HP >= 6000  ){
 		
 		angle += 20// augmente la vitesse 
 		cooldown = 1;// l'ecart entre chaque tire 
-		bullets_enemie(x,y,angle,dipsersion,1,Obj_Shoot_Enemie3,8);
+		bullets_enemie(x,y,angle,dipsersion,1,Obj_Shoot_type1,8);
 	//	bullets_enemie(x,y,angle+10,dipsersion,1,Obj_Shoot_Enemie3,8);
 		//vitesse = vitesse;
 	}
