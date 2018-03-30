@@ -20,5 +20,5 @@ angle = 0;
 angle2 = 0;
 av =12;
 
-wd2 =sprite_get_width(object_get_sprite(Obj_Shoot_Enemie1)) /2	
-show_debug_message(wd2);
+
+bullets_enemie(x,y,angle2,dipsersion,5,Obj_Shoot_Enemie5,1);

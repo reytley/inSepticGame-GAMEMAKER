@@ -38,7 +38,7 @@ if(choix = 5){
 
 if(choix = 6){
 	var enemie = instance_create_layer(cw+150, ch- irandom_range(100,ch-100) ,"bulletsLayer",obj_Enemie3);
-	var enemie = instance_create_layer(cw+100, ch- irandom_range(100,ch-100)  ,"bulletsLayer",obj_Enemie2);
+
 }	
 
 

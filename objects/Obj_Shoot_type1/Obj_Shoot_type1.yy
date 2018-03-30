@@ -5,16 +5,6 @@
     "name": "Obj_Shoot_type1",
     "eventList": [
         {
-            "id": "51ad5e45-28e0-47ee-ac78-6b39298731c1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "ec367eae-ef46-496b-913d-99185867cc84"
-        },
-        {
             "id": "2ff6166a-32f1-44c7-94de-2eb8a8080c2b",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "ec367eae-ef46-496b-913d-99185867cc84"
+        },
+        {
+            "id": "7e289eaf-cf24-4d9e-a044-fa6951e8f57c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "ec367eae-ef46-496b-913d-99185867cc84"
         }
     ],

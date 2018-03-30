@@ -14,7 +14,7 @@
         "ef34ed6d-fb68-413b-ab46-f6548f59edbb"
     ],
     "filterType": "GMSprite",
-    "folderName": "Enemie",
+    "folderName": "Charactere",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

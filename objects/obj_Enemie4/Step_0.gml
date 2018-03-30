@@ -4,7 +4,7 @@ v= v+1
 
 if(cooldown <= 0){
 	
-cooldown = 5;
+cooldown = irandom_range(20,100);
 
 
 

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message(fps);
+//show_debug_message(fps);
  
  
  if(instance_number(obj_entiteEnemie) = 0){

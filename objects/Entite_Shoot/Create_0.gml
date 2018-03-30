@@ -6,3 +6,5 @@ rotationy = 0;
 speedb = 10;
 speed = 10;
 touch = false;
+angle =0;
+DistanceMax = 0;

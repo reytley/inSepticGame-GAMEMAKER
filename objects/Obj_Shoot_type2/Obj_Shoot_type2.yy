@@ -2,9 +2,18 @@
     "id": "036093e8-2eb5-4ddb-8f83-adff26f7de83",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Obj_Shoot_Enemie1",
+    "name": "Obj_Shoot_type2",
     "eventList": [
-        
+        {
+            "id": "820ed663-f9f0-4e5f-b220-479363c5d505",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "036093e8-2eb5-4ddb-8f83-adff26f7de83"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
