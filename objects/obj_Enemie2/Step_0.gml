@@ -5,7 +5,7 @@ if(cooldown <= 0){
 	
 angle += 8;	
 cooldown = 25;
-bullets_enemie(x,y,0 ,1,6,Obj_Shoot_Enemie52,22);
+bullets_enemie(x,y,0 ,1,6,spr_shoot1,22);
 
 
 

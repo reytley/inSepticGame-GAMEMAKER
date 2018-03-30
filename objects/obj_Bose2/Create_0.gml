@@ -21,4 +21,3 @@ angle2 = 0;
 av =12;
 
 
-bullets_enemie(x,y,angle2,dipsersion,5,Obj_Shoot_Enemie5,1);

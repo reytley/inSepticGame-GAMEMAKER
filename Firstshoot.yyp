@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "1517759c-7bca-47e9-bc1e-08db39d38d4a",
-            "Value": {
-                "id": "3dd23404-17a8-4863-bd8b-9d7d4f8a6f9d",
-                "resourcePath": "objects\\Obj_Shoot_Enemie5\\Obj_Shoot_Enemie5.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "164dd230-6d67-492a-a0b7-bcc29ed0b09e",
             "Value": {
                 "id": "9e3ad969-7694-40ce-8b06-15d46db34e00",
@@ -276,14 +268,6 @@
                 "id": "18c22a11-33bf-47af-bf71-2e5d3fd1defa",
                 "resourcePath": "views\\30770b68-ddc9-4860-934b-9bbebb7f64e6.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3574c6d3-abc4-4439-ac24-d623a8b0fd5b",
-            "Value": {
-                "id": "20fd4bd5-29c3-4f3c-b222-28ef7c5a451b",
-                "resourcePath": "objects\\Obj_Shoot_Enemie4\\Obj_Shoot_Enemie4.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -699,14 +683,6 @@
             "Value": {
                 "id": "a79a03d3-5053-4c2b-a53f-948c7bf2d47b",
                 "resourcePath": "objects\\obj_enemiV1\\obj_enemiV1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a065a75e-db3a-4e64-89c8-9d8a1d4f72bc",
-            "Value": {
-                "id": "d8349c24-578a-4e1a-9d57-9bff7ae6e134",
-                "resourcePath": "objects\\Obj_Shoot_Enemie2\\Obj_Shoot_Enemie2.yy",
                 "resourceType": "GMObject"
             }
         },

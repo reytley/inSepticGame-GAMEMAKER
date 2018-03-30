@@ -8,10 +8,11 @@ cooldown = irandom_range(20,100);
 
 
 
-	var bullets = 	bullets_enemie(x,y,0,1,6,Obj_Shoot_Enemie52,8);
-
+  bullets_enemie(x,y,0,1,4,spr_shoot4,8);
    
+
 }
+
 cooldown --;
 
 if(HP <= 0){

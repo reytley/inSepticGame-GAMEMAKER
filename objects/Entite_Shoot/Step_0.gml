@@ -4,7 +4,7 @@
 
 if (speed < 0){
 	show_message(speed);
-speed = 1
+	speed = 1
 }
 // if out screen Destroy
 if(Scr_ifOutScreen(x,y) != ""){

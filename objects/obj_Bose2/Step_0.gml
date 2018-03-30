@@ -13,10 +13,10 @@ if(HP <= 9000 && HP >= 6000  ){
 
 if(HP >= 6000  ){
 	if(cooldown2 <= 0){
-		/*
+		
 	    angle2 += 3// augmente la vitesse 
 		cooldown2 = 1;// l'ecart entre chaque tire 
-		bullets_enemie(x,y,angle2,dipsersion,5,Obj_Shoot_Enemie5,1);*/
+		bullets_enemie(x,y,angle2,dipsersion,5,Obj_Shoot_Enemie5,1);
 	}
 }
 	

@@ -5,7 +5,9 @@ if(cooldown <= 0){
 	
 cooldown = irandom_range(20,100);
 
-bullets_enemie(x,y,0 ,1,4,Obj_Shoot_type2,8);
+
+  bullets_enemie(x,y,"nothing",1,4,spr_shoot4,8);
+ 
 
 }
 

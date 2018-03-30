@@ -64,43 +64,35 @@ bullets2.sprite_index = Spr
 if(choix = 4 ){
 	for(i = 0;i< 360;i += irandom_range(2,8)){
 		var bullets4 = instance_create_layer(posX,posY,"bulletsLayer",Obj_Shoot_type1);
-		bullets4.direction =i + angle;
+		bullets4.direction =i ;
 		bullets4.sprite_index = Spr
-		bullets4.speed = Pspeed;	
+		bullets4.speed = Pspeed;
+		
 	}
 }
 
 if(choix = 5){
 	var bullets5 = instance_create_layer(posX,posY,"bulletsLayer",Obj_Shoot_type3);
-	bullets5.rotationx = posX
-	bullets5.rotationy = posY
-	
+
 }
 
-
-
-
 if(choix = 6){
-var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-	bullets.angle = 180;
-	bullets.speed = 5
+var bullets = instance_create_layer(posX,posY,"bulletsLayer",Entite_Shoot);
+
+	bullets.direction =  180
+	bullets.speed = Pspeed
 }
 
 if(choix = 7){
 	var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-bullets.rotationy = dcos( angle);
-bullets.rotationx =dsin(angle);
+bullets.direction =angle
+
 bullets.speed = Pspeed;
 	
 	}
 	
 	
 	
-if(choix = 8){
-	var bullets = instance_create_layer(posX,posY,"bulletsLayer",Obj);
-	bullets.angle = 180;
-	bullets.speed = 5
-}
 
 	
 	

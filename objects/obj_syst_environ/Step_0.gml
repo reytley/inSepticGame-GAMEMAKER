@@ -6,7 +6,7 @@
  
  if(instance_number(obj_entiteEnemie) = 0){
 
- Scr_procedural_spawn_enemie(irandom_range(4,4));
+ Scr_procedural_spawn_enemie(irandom_range(1,7));
  //instance_create_layer(cw,ch/2,"bulletsLayer",en_MUR);
  }
  
